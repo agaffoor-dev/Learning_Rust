@@ -9,3 +9,6 @@
 - - -
 ##### Performing Basic Operations on Number Input
 - I found that working with numbers is a little more tricky than inputting strings as I look through the guess the number example in the docs. Interestingly, if it does not interact with another number, for example `number + 4`, it doesn't throw an error since it is treated as a string. To treat the input as a number, I had to convert an input to a i32 type number, trim followed by parse followed by expect has to be done. I know trim removes surrounding whitespace and parse interprets the string as a number, but I still have to get an understanding of what 'expect' does.
+- - -
+##### Guess the Number Game
+- I looked through the guess the number game example a few days back. Now I will try to replicate it based on my understanding of rust concepts I have learned so far.
